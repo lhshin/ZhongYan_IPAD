@@ -1,5 +1,5 @@
 //
-//  SKAppDelegate.h
+//  SKPatternLockController.h
 //  ZhongYan_IPAD
 //
 //  Created by lilin on 14-3-8.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SKAppDelegate : UIResponder <UIApplicationDelegate>
+@interface SKPatternLockController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
 @end

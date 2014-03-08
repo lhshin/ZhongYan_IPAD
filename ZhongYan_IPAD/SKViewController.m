@@ -16,8 +16,8 @@
 
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
-    //return  UIStatusBarStyleDefault;
-    return  UIStatusBarStyleLightContent;
+    return  UIStatusBarStyleDefault;
+    //return  UIStatusBarStyleLightContent;
 }
 
 - (void)viewDidLoad
@@ -29,5 +29,4 @@
 {
     [super didReceiveMemoryWarning];
 }
-
 @end

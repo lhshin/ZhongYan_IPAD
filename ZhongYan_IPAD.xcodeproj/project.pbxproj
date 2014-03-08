@@ -47,6 +47,7 @@
 		F293E8D618CAD85B0040B1CA /* LaunchImage-700-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F293E8D218CAD85B0040B1CA /* LaunchImage-700-Landscape~ipad.png */; };
 		F293E8D718CAD85B0040B1CA /* LaunchImage-700-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F293E8D318CAD85B0040B1CA /* LaunchImage-700-Portrait@2x~ipad.png */; };
 		F293E8D818CAD85B0040B1CA /* LaunchImage-700-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F293E8D418CAD85B0040B1CA /* LaunchImage-700-Portrait~ipad.png */; };
+		F293E8DC18CAE3720040B1CA /* SKPatternLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = F293E8DB18CAE3720040B1CA /* SKPatternLockController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,8 @@
 		F293E8D218CAD85B0040B1CA /* LaunchImage-700-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-Landscape~ipad.png"; sourceTree = "<group>"; };
 		F293E8D318CAD85B0040B1CA /* LaunchImage-700-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		F293E8D418CAD85B0040B1CA /* LaunchImage-700-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-Portrait~ipad.png"; sourceTree = "<group>"; };
+		F293E8DA18CAE3720040B1CA /* SKPatternLockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPatternLockController.h; sourceTree = "<group>"; };
+		F293E8DB18CAE3720040B1CA /* SKPatternLockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPatternLockController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,11 +171,16 @@
 		F2913DB818CAA81A0024998D /* ZhongYan_IPAD */ = {
 			isa = PBXGroup;
 			children = (
+				F293E8AE18CACE9D0040B1CA /* segmented_button_left@2x.png */,
+				F293E8B118CACE9D0040B1CA /* segmented_button_left_selected@2x.png */,
+				F293E8AF18CACE9D0040B1CA /* segmented_button_right_selected@2x.png */,
+				F293E8B218CACE9D0040B1CA /* segmented_button_right@2x.png */,
 				F2913DC118CAA81A0024998D /* SKAppDelegate.h */,
 				F2913DC218CAA81A0024998D /* SKAppDelegate.m */,
-				F2913DC418CAA81A0024998D /* Main.storyboard */,
 				F2913DC718CAA81A0024998D /* SKViewController.h */,
 				F2913DC818CAA81A0024998D /* SKViewController.m */,
+				F293E8DA18CAE3720040B1CA /* SKPatternLockController.h */,
+				F293E8DB18CAE3720040B1CA /* SKPatternLockController.m */,
 				F2913DCA18CAA81A0024998D /* Images.xcassets */,
 				F2913DB918CAA81A0024998D /* Supporting Files */,
 			);
@@ -182,30 +190,8 @@
 		F2913DB918CAA81A0024998D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F293E8BA18CACEFC0040B1CA /* Icon.png */,
-				F293E8BD18CACEFC0040B1CA /* Icon@2x.png */,
-				F293E8CD18CAD4440040B1CA /* Icon-50.png */,
-				F293E8CE18CAD4440040B1CA /* Icon-50@2x.png */,
-				F293E8C918CAD2A60040B1CA /* Icon-72.png */,
-				F293E8CA18CAD2A60040B1CA /* Icon-72@2x.png */,
-				F293E8B918CACEFC0040B1CA /* Icon-Small.png */,
-				F293E8BB18CACEFC0040B1CA /* Icon-Small@2x.png */,
-				F293E8C518CAD0060040B1CA /* Icon-Small-40.png */,
-				F293E8BC18CACEFC0040B1CA /* Icon-Small-40@2x.png */,
-				F293E8C718CAD0B60040B1CA /* Icon-76.png */,
-				F293E8BE18CACEFC0040B1CA /* Icon-76@2x.png */,
-				F293E8B018CACE9D0040B1CA /* LaunchImage-Landscape@2x~ipad.png */,
-				F293E8AD18CACE9D0040B1CA /* LaunchImage-Landscape~ipad.png */,
-				F293E89F18CACE6A0040B1CA /* LaunchImage-Portrait~ipad.png */,
-				F293E89D18CACE630040B1CA /* LaunchImage-Portrait@2x~ipad.png */,
-				F293E8D118CAD85B0040B1CA /* LaunchImage-700-Landscape@2x~ipad.png */,
-				F293E8D218CAD85B0040B1CA /* LaunchImage-700-Landscape~ipad.png */,
-				F293E8D318CAD85B0040B1CA /* LaunchImage-700-Portrait@2x~ipad.png */,
-				F293E8D418CAD85B0040B1CA /* LaunchImage-700-Portrait~ipad.png */,
-				F293E8AE18CACE9D0040B1CA /* segmented_button_left@2x.png */,
-				F293E8AF18CACE9D0040B1CA /* segmented_button_right_selected@2x.png */,
-				F293E8B118CACE9D0040B1CA /* segmented_button_left_selected@2x.png */,
-				F293E8B218CACE9D0040B1CA /* segmented_button_right@2x.png */,
+				F2913DC418CAA81A0024998D /* Main.storyboard */,
+				F293E8D918CAD9410040B1CA /* launchAppiconImage */,
 				F2913DBA18CAA81A0024998D /* ZhongYan_IPAD-Info.plist */,
 				F2913DBB18CAA81A0024998D /* InfoPlist.strings */,
 				F2913DBE18CAA81A0024998D /* main.m */,
@@ -230,6 +216,33 @@
 				F2913DDA18CAA81A0024998D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F293E8D918CAD9410040B1CA /* launchAppiconImage */ = {
+			isa = PBXGroup;
+			children = (
+				F293E8BA18CACEFC0040B1CA /* Icon.png */,
+				F293E8BD18CACEFC0040B1CA /* Icon@2x.png */,
+				F293E8CD18CAD4440040B1CA /* Icon-50.png */,
+				F293E8CE18CAD4440040B1CA /* Icon-50@2x.png */,
+				F293E8C918CAD2A60040B1CA /* Icon-72.png */,
+				F293E8CA18CAD2A60040B1CA /* Icon-72@2x.png */,
+				F293E8B918CACEFC0040B1CA /* Icon-Small.png */,
+				F293E8BB18CACEFC0040B1CA /* Icon-Small@2x.png */,
+				F293E8C518CAD0060040B1CA /* Icon-Small-40.png */,
+				F293E8BC18CACEFC0040B1CA /* Icon-Small-40@2x.png */,
+				F293E8C718CAD0B60040B1CA /* Icon-76.png */,
+				F293E8BE18CACEFC0040B1CA /* Icon-76@2x.png */,
+				F293E8B018CACE9D0040B1CA /* LaunchImage-Landscape@2x~ipad.png */,
+				F293E8AD18CACE9D0040B1CA /* LaunchImage-Landscape~ipad.png */,
+				F293E89F18CACE6A0040B1CA /* LaunchImage-Portrait~ipad.png */,
+				F293E89D18CACE630040B1CA /* LaunchImage-Portrait@2x~ipad.png */,
+				F293E8D118CAD85B0040B1CA /* LaunchImage-700-Landscape@2x~ipad.png */,
+				F293E8D218CAD85B0040B1CA /* LaunchImage-700-Landscape~ipad.png */,
+				F293E8D318CAD85B0040B1CA /* LaunchImage-700-Portrait@2x~ipad.png */,
+				F293E8D418CAD85B0040B1CA /* LaunchImage-700-Portrait~ipad.png */,
+			);
+			name = launchAppiconImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2913DC318CAA81A0024998D /* SKAppDelegate.m in Sources */,
+				F293E8DC18CAE3720040B1CA /* SKPatternLockController.m in Sources */,
 				F2913DC918CAA81A0024998D /* SKViewController.m in Sources */,
 				F2913DBF18CAA81A0024998D /* main.m in Sources */,
 			);
