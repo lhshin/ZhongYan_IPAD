@@ -29,4 +29,11 @@
 {
     [super didReceiveMemoryWarning];
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    //UIViewController* rootController = self.window.rootViewController;
+    //[self performSegueWithIdentifier:@"lockpattern" sender:self];
+}
+
+
 @end
